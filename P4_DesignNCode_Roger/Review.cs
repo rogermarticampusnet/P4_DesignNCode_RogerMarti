@@ -8,9 +8,11 @@ namespace P4_DesignNCode_Roger
 {
     public abstract class Review
     {
-        public int id;
-        public int user_id;
-        public int product_id;
+        private int id;
+        private int user_id;
+        public string user_name;
+        private int product_id;
+        public string product_name;
         public int rating;
         public string comment;
     }

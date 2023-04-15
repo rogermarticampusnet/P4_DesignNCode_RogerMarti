@@ -8,8 +8,14 @@ namespace P4_DesignNCode_Roger
 {
     public abstract class Wishlist
     {
-        public int id;
-        public int user_id;
+        private int id;
+        private int user_id;
+        public string user_name;
         public List<String> products;
-    }
+
+        public float NumberOfProducts()
+        {
+            return products.Count;
+        }
+    }   
 }

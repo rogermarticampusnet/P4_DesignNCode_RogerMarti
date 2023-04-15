@@ -8,11 +8,12 @@ namespace P4_DesignNCode_Roger
 {
     public abstract class Order
     {
-        public int id;
-        public int user_id;
+        private int id;
+        private int user_id;
+        public string user_name;
         public DateTime date;
-        public List<String> products;
-        public int quantity;
-        public int final_price;
+        private List<String> products;
+        private int quantity;
+        private int final_price;
     }
 }

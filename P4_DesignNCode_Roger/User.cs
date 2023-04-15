@@ -12,9 +12,9 @@ namespace P4_DesignNCode_Roger
         public string name;
         public string surname;
         public string email;
-        public string password;
-        public int telephone;
-        public string address;
-        public string DNI;
+        private string password;
+        private int telephone;
+        private string address;
+        private string DNI;
     }
 }
