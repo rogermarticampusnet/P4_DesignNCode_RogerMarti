@@ -1,2 +1,2 @@
-# P4_DesignNCode_Roger
-![uml diagram](uml_d.jpg)
+# P4 - Design & Code - Roger Martí
+![uml diagram](diagrama_uml.jpg)
