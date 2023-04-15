@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace P4_DesignNCode_Roger
 {
-    public abstract class Wishlist
+    public class Wishlist
     {
         private int id;
         private int user_id;

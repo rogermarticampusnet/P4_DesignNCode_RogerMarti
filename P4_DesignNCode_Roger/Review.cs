@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace P4_DesignNCode_Roger
 {
-    public abstract class Review
+    public class Review
     {
         private int id;
         private int user_id;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace P4_DesignNCode_Roger
 {
-    public abstract class Product
+    public class Product
     {
         public int id;
         private bool visible;
